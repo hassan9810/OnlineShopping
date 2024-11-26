@@ -18,6 +18,6 @@
         [Authorize(Roles = "Admin")]
         [HttpGet("GetAllUsers")]
         [EnableQuery]
-        public async Task<ResponseDto> GetAllUsers() => await _mediator.Send(new GetAllItemQuery());
+        public async Task<ResponseDto> GetAllUsers() => await _mediator.Send(new GetAllUsersQuery());
     }
 }

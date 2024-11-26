@@ -1,5 +1,4 @@
-﻿
-namespace Store.Helper
+﻿namespace Store.Helper
 {
     public class ResponseHelper
     {

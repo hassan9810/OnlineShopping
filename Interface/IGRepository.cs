@@ -74,7 +74,6 @@
         Task<object> GetMaximumAsync(Expression<Func<T, object>> selector);
         #endregion
 
-
         #region IsExist Methods
         bool IsExist(params object[] keys);
         Task<bool> IsExistAsync(params object[] keys);

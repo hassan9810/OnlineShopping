@@ -4,6 +4,7 @@
     {
         public MappingProfile()
         {
+            // Item mappings
             CreateMap<PostItemCommand, Item>();
             CreateMap<PutItemDto, Item>();
             CreateMap<Item, GetAllItemDto>();
@@ -14,7 +15,9 @@
             CreateMap<PutUOMsDto, UOM>();       
             CreateMap<UOM, GetAllUOMsDto>();
 
+            // User mappings
             CreateMap<User, UserDto>();
+            CreateMap<RegisterCommand, User>();
             CreateMap<User, GetAllUsersDTO>();
 
             // Order mappings
